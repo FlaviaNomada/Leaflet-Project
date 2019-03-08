@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<title>NCRIS MAP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="screen.css" />
+
+	<script text='test/javascript' src="markers.js"></script>
+	<script text='test/javascript' src="aurin.js"></script>
+
+</head>
+<body>
+
+<h1>NCRIS Super Map</h1>
+
+<h2>
+Project Partners
+</h2>
+
+<div id="map"></div>
+<input id="add" type="button" value="Add MarkerClusterGroup to Map" />
+<input id="remove" type="button" value="Remove MarkerClusterGroup from Map" />
+
+
+<script src="https://unpkg.com/urijs@^1/src/URI.min.js"></script>
+<script src="https://unpkg.com/load-js-css@0.0.2/index.js"></script>
+
+<script src="https://unpkg.com/manage-libs-versions@0.2.1/manage-libs-versions.js"></script>
+<!--script src="manage-libs-versions.js"></script-->
+
+<script src="../leaflet-versions.js"></script>
+<script src="../leaflet.markercluster-versions.js"></script>
+<script src="libs-setup.js"></script>
+
+<script>
+
+  bundle1.fillPlaceholders();
+
+  // Check for availability of local version.
+  // It is absent from repository, therefore in online mode.
+  // In development mode, it is available if developer has built the dist file(s).
+  var localVersion = bundle1.getLibVersion('leaflet.featuregroup.subgroup', 'local');
+
+  if (localVersion) {
+    localVersion.checkAssetsAvailability(true)
+        .then(function () {
+          console.log('LOCAL version found');
+          load();
+        })
+        .catch(function () {
+          var version102 = bundle1.getLibVersion('leaflet.featuregroup.subgroup', '1.0.2');
+
+          if (version102) {
+            version102.defaultVersion = true;
+          }
+
+          load();
+        });
+  } else {
+    load();
+  }
+
+
+
+  function load() {
+    // Retrieve the requested versions from browser address bar.
+    var url = window.location.href;
+    // https://github.com/medialize/URI.js
+    var urlParts = URI.parse(url);
+    var queryStringParts = URI.parseQuery(urlParts.query);
+    // https://github.com/ghybs/manage-libs-versions
+    var list = bundle1.getAndSelectVersionsAssetsList(queryStringParts);
+
+    // Finally load the page script, now that Leaflet, and Leaflet.FeatureGroup.SubGroup are available.
+    list.push({
+      type: 'script',
+      path: './subGroup-markercluster-controlLayers-realworld.388.js'
+    });
+
+    console.log(list);
+
+    // https://github.com/ghybs/load-js-css
+    loadJsCss.list(list, {
+      delayScripts: 500 // Load scripts after stylesheets, delayed by this duration (in ms).
+    });
+  }
+
+
+  ////////////////////////////////////////////////////////
+  document.getElementById('reload').addEventListener('click', function (event) {
+    event.preventDefault();
+
+    var bundleVersions = bundle1.readSelectedVersionsNames();
+    var url = new URI(window.location.href).setQuery(bundleVersions);
+
+    window.location.href = url.toString();
+  });
+
+</script>
+
+</body>
+</html>
