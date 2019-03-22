@@ -39,7 +39,6 @@ var aurin = [
         "coordinates": [144.964995, -37.797406]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -144,6 +143,46 @@ var aurin = [
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Queensland Government",
+        "Role": "Participant",
+        "Organisation": "Government (State or Territory)",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": null,
+        "Participant type": "Operational Partner",
+        "State": "QLD",
+        "Latitude": -27.43894,
+	    	"Longitude": 153.03043,
+        "Electorate": "Brisbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.03043, -27.43894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Australian Property Monitors",
+        "Role": "Participant",
+        "Organisation": "Private data platform",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data. APM is a property intelligence platform.",
+        "Location": "Sydney (NSW) and Fortitude Valley (QLD)",
+        "Participant type": "Operational Partner",
+        "State": "QLD",
+        "Latitude": -27.43894,
+	    	"Longitude": 153.03043,
+        "Electorate": "Brisbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.03043, -27.43894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
         "Name": "PSMA Australia Ltd",
         "Role": "Participant",
         "Organisation": "Company",
@@ -160,7 +199,127 @@ var aurin = [
         "coordinates": [149.19318, -35.28793]
       }
     },
-        {
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "ACT Government",
+        "Role": "Participant",
+        "Organisation": "Government (State or Territory)",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": null,
+        "Participant type": "Governance \/ Financial Partner",
+        "State": "ACT",
+        "Latitude": -35.28793,
+	    	"Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Australian Bureau of Statistics",
+        "Role": "Participant",
+        "Organisation": "Government agency (Australian)",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "Canberra",
+        "Participant type": "Operational Partner",
+        "State": "ACT",
+        "Latitude": -35.28793,
+		    "Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Healthdirect Australia Limited",
+        "Role": "Participant",
+        "Organisation": "Government funded service",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data. Healthdirect Australia is a national public health information service",
+        "Location": "Various locations nationally",
+        "Participant type": "Operational Partner",
+        "State": "National",
+        "Latitude": -35.28793,
+	    	"Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Energy Supply Association Australia (essa)",
+        "Role": "Participant",
+        "Organisation": "Industry association",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "ACT and VIC",
+        "Participant type": "Operational Partner",
+        "State": "ACT",
+        "Latitude": -35.28793,
+	    	"Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Surveying and Spatial Sciences Institute (SSSI)",
+        "Role": "Participant",
+        "Organisation": "Peak body",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "Deakin ACT",
+        "Participant type": "Strategic Partner",
+        "State": "ACT",
+        "Latitude": -35.28793,
+	    	"Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "CSIRO",
+        "Role": "Participant",
+        "Organisation": "Publicly funded research agency",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "Various national",
+        "Participant type": "Advisory Partner",
+        "State": "National ",
+        "Latitude": -35.28793,
+		    "Longitude": 149.19318,
+        "Electorate": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.19318, -35.28793]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
@@ -198,6 +357,26 @@ var aurin = [
       "geometry": {
         "type": "Point",
         "coordinates": [147.24328, -42.88927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Maroondah City Council",
+        "Role": "Participant",
+        "Organisation": "Local government",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "Croydon VIC",
+        "Participant type": "Operational Partner",
+        "State": "VIC",
+        "Latitude": -37.81416,
+	    	"Longitude": 145.24598,
+        "Electorate": "Deakin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.24598, -37.81416]
       }
     },
     {
@@ -340,7 +519,27 @@ var aurin = [
         "coordinates": [147.41058, -18.97516]
       }
     },
-      {
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Low Carbon Living CRC (CRC LCL)",
+        "Role": "Participant",
+        "Organisation": "Cooperative Research Centre",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": "UNSW Sydney",
+        "Participant type": "Operational Partner",
+        "State": "NSW",
+        "Latitude": -33.95891,
+		"Longitude": 151.2105,
+        "Electorate": "Kingsford Smith"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.2105, -33.95891]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
@@ -411,13 +610,13 @@ var aurin = [
         "Location": "Melbourne",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.812991,
-		"Longitude": 144.966055,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.966055, -37.812991]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -431,13 +630,13 @@ var aurin = [
         "Location": "Various national",
         "Participant type": "Strategic Partner",
         "State": "VIC",
-        "Latitude": -37.801938,
-		"Longitude": 144.967100,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.967100, -37.801938]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -451,13 +650,13 @@ var aurin = [
         "Location": null,
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.810346,
-		"Longitude": 144.973764,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.973764, -37.810346]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -471,13 +670,13 @@ var aurin = [
         "Location": "Carlton VIC (HQ)",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.805125,
-		"Longitude": 144.960673,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.960673, -37.805125]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -491,13 +690,13 @@ var aurin = [
         "Location": "Melbourne VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.821493,
-		"Longitude": 144.953395,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.953395, -37.821493]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -511,13 +710,13 @@ var aurin = [
         "Location": "ACT and VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.817913,
-		"Longitude": 144.960795,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.960795, -37.817913]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -531,13 +730,13 @@ var aurin = [
         "Location": null,
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.814422,
-		"Longitude": 144.967176,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.967176, -37.814422]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -551,13 +750,13 @@ var aurin = [
         "Location": "Various - Melbourne VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.818345,
-		"Longitude": 145.000755,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [145.000755, -37.818345]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -571,16 +770,36 @@ var aurin = [
         "Location": null,
         "Participant type": "Operating Participants",
         "State": "VIC",
-        "Latitude": -37.875981,
-		"Longitude": 145.050421,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [145.050421, -37.875981]
+        "coordinates": [144.96439, -37.80477]
       }
     },
-        {
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Australian Research Data cloud",
+        "Role": "Participant",
+        "Organisation": "NCRIS project",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": null,
+        "Participant type": "Operating Participants",
+        "State": "VIC",
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
+        "Electorate": "Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.96439, -37.80477]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
@@ -611,13 +830,13 @@ var aurin = [
         "Location": "Richmond VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.810415,
-		"Longitude": 144.992929,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne "
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.992929, -37.810415]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -631,13 +850,13 @@ var aurin = [
         "Location": "Carlton VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.803057,
-		"Longitude": 144.969601,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne "
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.969601, -37.803057]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -651,13 +870,13 @@ var aurin = [
         "Location": "Melbourne VIC",
         "Participant type": "Operational Partner",
         "State": "VIC",
-        "Latitude": -37.813810,
-		"Longitude": 144.947412,
+        "Latitude": -37.80477,
+		"Longitude": 144.96439,
         "Electorate": "Melbourne "
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.947412, -37.813810]
+        "coordinates": [144.96439, -37.80477]
       }
     },
     {
@@ -720,7 +939,47 @@ var aurin = [
         "coordinates": [115.89079, -31.92067]
       }
     },
-      {
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Australian Research Data cloud",
+        "Role": "Participant",
+        "Organisation": "NCRIS project",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": null,
+        "Participant type": "Operating Participants",
+        "State": "QLD",
+        "Latitude": -27.45985,
+		"Longitude": 152.86357,
+        "Electorate": "Ryan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.86357, -27.45985]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
+        "Name": "Australian Research Data cloud",
+        "Role": "Participant",
+        "Organisation": "NCRIS project",
+        "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data",
+        "Location": null,
+        "Participant type": "Operating Participants",
+        "State": "QLD",
+        "Latitude": -27.45985,
+		"Longitude": 152.86357,
+        "Electorate": "Ryan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.86357, -27.45985]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
@@ -751,13 +1010,13 @@ var aurin = [
         "Location": "Head office: Sydney (various locations Australia and New Zealand)",
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.838520,
-		"Longitude": 151.281739,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.281739, -33.838520]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
@@ -771,13 +1030,13 @@ var aurin = [
         "Location": null,
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.864244,
-		"Longitude": 151.207158,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.207158, -33.864244]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
@@ -791,33 +1050,33 @@ var aurin = [
         "Location": "Sydney NSW (HQ)",
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.884112,
-		"Longitude": 151.204625,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.204625, -33.884112]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
-        "Name": "Australian Children's Education and Care Quality Authority ",
+        "Name": "Australian Children�s Education and Care Quality Authority ",
         "Role": "Participant",
         "Organisation": "Independent authority",
         "Description": "AURIN Collaborators either contribute functionality to the Workbench as part of sub-projects or contribute data. ACECQA is an independent national authority that assists Australian state and territory governments in implementing the National Quality Framework (NQF) for children's education and care",
         "Location": "Sydney NSW",
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.876908,
-		"Longitude": 151.210826,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.210826, -33.876908]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
@@ -831,13 +1090,13 @@ var aurin = [
         "Location": "Sydney (NSW) and Fortitude Valley (QLD)",
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.868375,
-		"Longitude": 151.194186,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.194186, -33.868375]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
@@ -851,13 +1110,13 @@ var aurin = [
         "Location": null,
         "Participant type": "Operating Participant",
         "State": "NSW",
-        "Latitude": -33.866063,
-		"Longitude": 151.207354,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.207354, -33.866063]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {
@@ -871,13 +1130,13 @@ var aurin = [
         "Location": "Sydney NSW",
         "Participant type": "Operational Partner",
         "State": "NSW",
-        "Latitude": -33.871229,
-		"Longitude": 151.207013,
+        "Latitude": -33.03513,
+		"Longitude": 154.0721,
         "Electorate": "Sydney"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.207013, -33.871229]
+        "coordinates": [154.0721, -33.03513]
       }
     },
     {

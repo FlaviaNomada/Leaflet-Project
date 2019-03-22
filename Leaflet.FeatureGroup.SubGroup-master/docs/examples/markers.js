@@ -93,18 +93,18 @@ var markers = [
               "Name": "CSIRO",
               "Role": "Participant",
               "Organisation": "Publicly funded research agency",
-              "Description": "Australia�s national science organisation with an astronomy research capability, which owns and operates radio telescopes in Australia.",
+              "Description": "Australia's national science organisation with an astronomy research capability, which owns and operates radio telescopes in Australia.",
               "Location": "National",
               "Participant type": "Governance Partner \/ Delivery Participant",
               "State": "National",
-              "Latitude": -35.28793,
-              "Longitude": 149.19318,
+              "Latitude": -35.276693,
+              "Longitude": 149.123198,
               "Electorate": "Canberra",
               "Count": null
             },
             "geometry": {
               "type": "Point",
-              "coordinates": [149.19318, -35.28793]
+              "coordinates": [149.123198, -35.276693]
             }
           },
           {
@@ -321,7 +321,7 @@ var markers = [
             "type": "Feature",
             "properties": {
               "LeadProject": "Astronomy Australia",
-              "Name": "University of Queensland � ARDC ",
+              "Name": "University of Queensland - ARDC ",
               "Role": "Participant",
               "Organisation": "NCRIS Capabilities",
               "Description": "Funder",
@@ -349,56 +349,16 @@ var markers = [
               "Location": "The University of Queensland, QLD",
               "Participant type": "Governance Partner",
               "State": "QLD",
-              "Latitude": -27.45985,
-              "Longitude": 152.86357,
+              "Latitude": -27.497842,
+              "Longitude": 153.011270,
               "Electorate": "Ryan",
               "Count": null
             },
             "geometry": {
               "type": "Point",
-              "coordinates": [152.86357, -27.45985]
+              "coordinates": [153.011270, -27.497842]
             }
           },
-          {
-            "type": "Feature",
-            "properties": {
-              "LeadProject": "Astronomy Australia",
-              "Name": "Curtin University",
-              "Role": "Participant",
-              "Organisation": "University",
-              "Description": "An Australian university with an astronomy research capability, which owns and operates a radio telescope in Australia and provides computing support for astronomers.",
-              "Location": "Curtin University, WA",
-              "Participant type": "Governance Partner \/ Delivery Participant (MWA) \/ Delivery Participant (via Astronomy Data and Computing Services consortium)",
-              "State": "WA",
-              "Latitude": -31.97488,
-              "Longitude": 115.92982,
-              "Electorate": "Swan",
-              "Count": null
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [115.92982, -31.97488]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "LeadProject": "Astronomy Australia",
-              "Name": "The University of Sydney",
-              "Role": "Participant",
-              "Organisation": "University",
-              "Description": "An Australian university with an astronomy research capability which builds components of scientific instruments for optical telescopes.",
-              "Location": "The University of Sydney, NSW",
-              "Participant type": "Governance Partner \/ Operating Participant (via Australian Astronomical Optics Consortium)",
-              "State": "NSW",
-              "Latitude": -33.879639,
-              "Longitude": 151.208093,
-              "Electorate": "Sydney",
-              "Count": null
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [151.208093, -33.879639]
-            }
-          }
+
+
         ];
