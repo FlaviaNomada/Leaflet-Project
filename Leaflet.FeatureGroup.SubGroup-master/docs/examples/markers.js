@@ -91,7 +91,7 @@ var markers = [
             "properties": {
               "LeadProject": "Astronomy Australia",
               "Name": "CSIRO",
-              "Role": "Participant",
+              "Role": "Infrastructure Site",
               "Organisation": "Publicly funded research agency",
               "Description": "Australia's national science organisation with an astronomy research capability, which owns and operates radio telescopes in Australia.",
               "Location": "National",
@@ -280,7 +280,7 @@ var markers = [
             "properties": {
               "LeadProject": "Astronomy Australia",
               "Name": "Astronomy Australia Ltd",
-              "Role": "Participant",
+              "Role": "Infrastructure Site",
               "Organisation": "Not for profit company limited by guarantee",
               "Description": "Provides and\/or coordinates telescope access, and facilitates the development of instrumentation and data acquisition infrastructure for astronomers",
               "Location": "Melbourne ",

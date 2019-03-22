@@ -23,6 +23,13 @@ var orangeIcon = L.icon({
   popupAnchor: [0, -14]
 });
 
+var yellowIcon = L.icon({
+  iconUrl: 'yellow.svg',
+  iconSize: [29, 24],
+  iconAnchor: [9, 21],
+  popupAnchor: [0, -14]
+});
+
 var mcg = L.markerClusterGroup(),
   group1 = L.featureGroup.subGroup(mcg), // use `L.featureGroup.subGroup(parentGroup)` instead of `L.featureGroup()` or `L.layerGroup()`!
   group2 = L.featureGroup.subGroup(mcg),

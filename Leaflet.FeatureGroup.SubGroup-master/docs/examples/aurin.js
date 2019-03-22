@@ -4,7 +4,7 @@ var aurin = [
       "properties": {
         "LeadProject": "Australian Urban Research Infrastructure Network (AURIN)",
         "Name": "AURIN",
-        "Role": "Lead Agent",
+        "Role": "Infrastructure Site",
         "Organisation": "The University of Melbourne",
         "Description": "Tech Team",
         "Location": "Melbourne",
